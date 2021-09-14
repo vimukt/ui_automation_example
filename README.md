@@ -9,8 +9,6 @@ Dependencies:
 
 Note: 
 Run and tested on MacOS Big Sur (Version 11.4)
-ESLINT is installed and configured.
-run : `npm run lint` command to make code is in proper format.
 
 Running Tests:
 
@@ -20,7 +18,7 @@ Navigate to project directory : `<HOME/CLONEPATH>`
 
 Install dependencies : `npm install`
 
-Running tests : `npm run test`
+Running tests : `npm run test` (with reports)
 
 Note : - 
 It can be run on local machine/sauce lab based on config you pick.

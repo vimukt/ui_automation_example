@@ -34,6 +34,7 @@ describe("Ebay website serach test suite :->", () => {
         // Logout
         homePage.clickProfileBtn();
         homePage.clickLogOutLink();
+        
 
     });
 

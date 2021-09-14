@@ -43,6 +43,5 @@ class Search extends Page {
         return this.quantity.getText();
 
     }
-
 }
 export default new Search();

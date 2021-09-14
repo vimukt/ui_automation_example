@@ -5,7 +5,7 @@ import Page from "./Page";
 
 class LoginPage extends Page {
     open() {
-        super.open("https://signin.ebay.com.au/signin/");
+        super.open("https://signin.ebay.com.au/signin");
     }
 
     get username() {
@@ -29,13 +29,13 @@ class LoginPage extends Page {
     }
 
     enterPassword(password: string) {
-        this.syncWait(Timeout.SMALL);
+        this.syncWait(Timeout.MEDIUM);
         this.password.setValue(password);   
     }
 
     clickSignIn() {
         this.signIn.click();
-        this.syncWait(Timeout.SMALL);
+        this.syncWait(Timeout.MEDIUM);
     }
 
     clickContinueBtn() {

@@ -34,6 +34,11 @@ class HomePage extends Page {
     open() {
         super.open("/");
     }
+
+    close(){
+      browser.clearLocalStorage();
+      browser.clearSessionStorage();
+    }
 }
 
 export default new HomePage();
