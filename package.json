@@ -10,7 +10,7 @@
     "test": "wdio run wdio.local.conf.ts && allure generate allure-results --clean && allure open",
     "test:local": "wdio run wdio.local.conf.ts",
     "test:sauce": "wdio run wdio.sauce.conf.ts",
-    "test:reports": "wdio run wdio.local.conf.ts && allure generate allure-results --clean && allure open"
+    "reports": "allure generate allure-results --clean && allure open"
   },
   "dependencies": {
     "@types/chai": "^4.2.15",
