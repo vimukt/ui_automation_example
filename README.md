@@ -19,8 +19,10 @@ Navigate to project directory : `<HOME/CLONEPATH>`
 Install dependencies : `npm install`
 
 Running tests : `npm run test` (opens reports if tests passes)
-If Tests fails please run report using:
-Running reports :  `npm run reports`
+
+
+If Tests fails nd user want to see the report run this command: `npm run reports`
+
 
 Note : - 
 It can be run on local machine/sauce lab based on config you pick.
